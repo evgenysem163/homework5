@@ -97,18 +97,37 @@ public class Main {
                 break;
             default:
                 System.out.println("такого месяца не существует");
-
-
         }
-        int numberOne = 1;
-        int numberTwo = 2;
-        int numberThree = 3;
-        if (numberOne >= numberTwo) {
-            System.out.println(" число 2 ");
-        } else {
-            System.out.println(" число 3 больше ");
-
+        // task7
+        int one = 32;
+        int two = 28;
+        int three = 21;
+        if (one > two) {
+            if (one >= three) {
+                System.out.println("Максимальгое число " + one);
+            } else {
+                System.out.println("Максимальгое число " + three);
+            }
+        } else if (two > one) {
+            if (two > three) {
+                System.out.println("Максимальгое число " + two);
+            } else {
+                System.out.println("Максимальгое число " + three);
+            }
+        }else {
+            if (one > three) {
+                System.out.println("Максимальгое число " + one);
+            }else if (three > one){
+                System.out.println("Максимальгое число " + three);
+            }else {
+                System.out.println(" Числа равны");
+            }
         }
-
     }
 }
+
+
+
+
+
+
