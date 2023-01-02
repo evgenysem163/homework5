@@ -6,7 +6,8 @@ public class Main {
         int clientOS1 = 1;
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
-        }if (clientOS1 ==1){
+        }
+        if (clientOS1 == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
 
         }
@@ -99,5 +100,15 @@ public class Main {
 
 
         }
+        int numberOne = 1;
+        int numberTwo = 2;
+        int numberThree = 3;
+        if (numberOne >= numberTwo) {
+            System.out.println(" число 2 ");
+        } else {
+            System.out.println(" число 3 больше ");
+
+        }
+
     }
 }
